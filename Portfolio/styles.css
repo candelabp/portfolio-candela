@@ -674,7 +674,7 @@ font-size: var(--h1-font-size);
       order: 1;
       /*justify-self: center;*/
    }
-   .about__container, .portfolio__content, .contact__container, .footer__container{
+   /*.about__container, */ .portfolio__content, .contact__container, .footer__container{
       grid-template-columns: repeat(2,1fr);
 
    }
