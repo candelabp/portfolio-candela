@@ -755,7 +755,8 @@ font-size: var(--h1-font-size);
       justify-content: space-between;
    }
    .about__buttons{
-      justify-content: initial;
+      justify-content: center;
+      justify-self: center;
    }
    .qualification__tabs{
       justify-content: center;
