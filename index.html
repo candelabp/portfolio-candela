@@ -9,9 +9,6 @@
 <!--Unicons-->
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
-<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
-
 
     </head>
     <body>
@@ -337,57 +334,54 @@
          <section class="Portfolio section" id="portfolio">
             <h2 class="section__title">Portfolio</h2>
             <span class="section__subtitle">Mis trabajos más recientes</span>
-            <div class="portfolio__container container  swiffy-slider slider-nav-dark slider-nav-zoom slider-item-gap" style="--swiffy-slider-nav-dark:hsl(52 , 69%, 61%);--swiffy-slider-nav-zoom:0.5;--swiffy-slider-item-gap:0px; width: 80%;">
-                <div class="slider-container">
-                <!--Portfolio 1-->
-                <div class="portfolio__content grid ">
-                    <img src="assets/Sin título.jpeg" alt="" class="portfolio__img">
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Calculadora cientifica</h3>
-                        <p class="portfolio__description">Calculadora de escritorio realizada en Java y Mysql.</p>
-                        <a href="#" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-                    <!--Portfolio 2-->
-                    <div class="portfolio__content grid">
-                        <img src="assets/Screenshot-673-1-1200x900.webp" alt="" class="portfolio__img">
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Control de stock</h3>
-                            <p class="portfolio__description">Programa para controlar el stock de un comercio realizado en JAVA.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+            <div class="portfolio__container container">
+                <div class="portfolio__grid">
+                    <article class="portfolio__card">
+                        <div class="portfolio__thumb">
+                            <img src="https://res.cloudinary.com/dyilnebqw/image/upload/v1765135416/elbuen-sabor_dewnke.png" alt="El buen sabor" class="portfolio__img">
+                            <span class="portfolio__badge">Java + React</span>
                         </div>
-                    </div>
-                        <!--Portfolio 3-->
-                <div class="portfolio__content grid">
-                    <img src="assets/maxresdefault.jpg" alt="" class="portfolio__img">
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">Juego</h3>
-                        <p class="portfolio__description">Juego realizado en Python</p>
-                        <a href="#" class="button button--flex button--small portfolio__button">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
+                        <div class="portfolio__body">
+                            <div class="portfolio__header">
+                                <h3 class="portfolio__title">El buen sabor</h3>
+                                <span class="portfolio__meta">Web - 2025</span>
+                            </div>
+                            <p class="portfolio__description">Aplicacion web desarrollada con React + TypeScript, Spring Boot y MySQL para gestionar un negocio gastronomico. Incluye catalogo de productos, promociones, carrito de compras con Mercado Pago, pedidos, control de stock, administracion de insumos y reportes.</p>
+                            <div class="portfolio__stack">
+                                <span class="portfolio__chip">React + TS</span>
+                                <span class="portfolio__chip">Spring Boot</span>
+                                <span class="portfolio__chip">MySQL</span>
+                            </div>
+                            <div class="portfolio__links">
+                                <a href="https://github.com/diegoCardenas03/ElBuenSabor" target="_blank" class="button button--ghost button--small">Repo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__card">
+                        <div class="portfolio__thumb">
+                            <img src="https://res.cloudinary.com/dyilnebqw/image/upload/v1765135830/Screenshot_2025-12-07_at_16-31-04_BeautyConnect_wmxtyo.png" alt="Beauty Connect" class="portfolio__img">
+                            <span class="portfolio__badge">Fullstack</span>
+                        </div>
+                        <div class="portfolio__body">
+                            <div class="portfolio__header">
+                                <h3 class="portfolio__title">Beauty Connect</h3>
+                                <span class="portfolio__meta">Web - 2025</span>
+                            </div>
+                            <p class="portfolio__description">Aplicacion desarrollada con React + TypeScript, Redux, Tailwind, Spring Boot y MySQL. Incluye gestion de clientes, profesionales y centros de estetica; resenas y calificaciones; login con Firebase; carga y visualizacion de servicios y panel administrativo.</p>
+                            <div class="portfolio__stack">
+                                <span class="portfolio__chip">React + TS</span>
+                                <span class="portfolio__chip">Redux</span>
+                                <span class="portfolio__chip">Tailwind</span>
+                                <span class="portfolio__chip">Spring Boot</span>
+                                <span class="portfolio__chip">MySQL</span>
+                            </div>
+                            <div class="portfolio__links">
+                                <a href="https://github.com/candelabp/BeautyConnect-API" target="_blank" class="button button--ghost button--small">Repo</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-                
-                </div>
-                <button type="button" class="slider-nav"></button>
-                <button type="button" class="slider-nav slider-nav-next "></button>
-
-                <div class="slider-indicators">
-                    <button class="active"></button>
-                    <button></button>
-                    <button></button>
-    </div>
-
-
-
             </div>
          </section>
 
